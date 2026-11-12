@@ -1,0 +1,5 @@
+indicator,first_seen,source
+203.0.113.66,2026-11-04,firewall
+192.0.2.10,2026-11-04,proxy
+evil-payments.top,2026-11-03,dns
+44d88612fea8a8f36de82e1278abb02f,2026-11-04,edr

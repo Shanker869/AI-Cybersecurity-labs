@@ -1,0 +1,53 @@
+[
+  {
+    "technique": "T1567.002",
+    "count": 2,
+    "first": "2026-10-28T18:42:17+00:00",
+    "artifacts": [
+      "PREFETCH",
+      "WEBHIST"
+    ]
+  },
+  {
+    "technique": "T1105",
+    "count": 1,
+    "first": "2026-10-28T18:44:02+00:00",
+    "artifacts": [
+      "WEBHIST"
+    ]
+  },
+  {
+    "technique": "T1560.001",
+    "count": 2,
+    "first": "2026-10-28T18:50:12+00:00",
+    "artifacts": [
+      "FILE",
+      "PREFETCH"
+    ]
+  },
+  {
+    "technique": "T1052.001",
+    "count": 3,
+    "first": "2026-10-28T18:58:05+00:00",
+    "artifacts": [
+      "LNK",
+      "REG"
+    ]
+  },
+  {
+    "technique": "T1070.004",
+    "count": 2,
+    "first": "2026-10-28T19:05:48+00:00",
+    "artifacts": [
+      "PREFETCH"
+    ]
+  },
+  {
+    "technique": "T1070.001",
+    "count": 2,
+    "first": "2026-10-28T19:07:10+00:00",
+    "artifacts": [
+      "EVT"
+    ]
+  }
+]

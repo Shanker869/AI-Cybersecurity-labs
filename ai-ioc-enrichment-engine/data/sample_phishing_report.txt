@@ -1,0 +1,11 @@
+Subject: FW: Overdue invoice #88231 - action required
+Reported by: finance-team (user clicked the link)
+
+The email came from billing@secure-paypa1[.]com (Return-Path: bounce@mailer-cdn[.]top) and linked to
+hxxps://login-micros0ft[.]top/auth/office365?session=8812 which harvested credentials.
+The attached Invoice_88231.docm contained a macro that downloaded hxxp://cdn-update(.)xyz/upd.exe
+SHA256 9F2B5C1E0F4B3A7D8E6C5B4A39281706F5E4D3C2B1A09F8E7D6C5B4A39281706
+MD5 44d88612fea8a8f36de82e1278abb02f
+After execution the host beaconed to 203.0.113[.]66:443 and 198.51.100.23 every 60s.
+Internal host 10.20.4.77 then connected to the file server. The payload appears to exploit CVE-2023-23397.
+Legit links in the footer: https://www.microsoft.com/privacy and support@contoso.com

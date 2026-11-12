@@ -1,0 +1,12 @@
+type,value,defanged,score,verdict,tags,mitre_hints,sources
+md5,44d88612fea8a8f36de82e1278abb02f,44d88612fea8a8f36de82e1278abb02f,100,malicious,eicar-test-file,,local_feed=100 (EICAR)
+sha256,9f2b5c1e0f4b3a7d8e6c5b4a39281706f5e4d3c2b1a09f8e7d6c5b4a39281706,9f2b5c1e0f4b3a7d8e6c5b4a39281706f5e4d3c2b1a09f8e7d6c5b4a39281706,100,malicious,loader;ransomware,T1105;T1486,local_feed=100 (lab sandbox)
+ipv4,203.0.113.66,203[.]0[.]113[.]66,95,malicious,c2;cobalt-strike,T1071;T1071.001,local_feed=95 (lab MISP event 1042)
+url,https://login-micros0ft.top/auth/office365?session=8812,hxxps[://]login-micros0ft[.]top/auth/office365?session=8812,90,malicious,credential-harvest;phishing,T1566,local_feed=90 (lab MISP event 1043)
+url,http://cdn-update.xyz/upd.exe,hxxp[://]cdn-update[.]xyz/upd[.]exe,85,malicious,loader;malware-delivery,T1105,local_feed=85 (lab MISP event 1042)
+email,billing@secure-paypa1.com,billing@secure-paypa1[.]com,80,malicious,phishing,T1566,local_feed=80 (lab phishing feed)
+cve,CVE-2023-23397,CVE-2023-23397,75,malicious,exploit;known-exploited;outlook,T1190,local_feed=75 (CISA KEV)
+ipv4,198.51.100.23,198[.]51[.]100[.]23,60,suspicious,brute-force;scanner,T1110;T1595,local_feed=60 (lab honeypot)
+email,bounce@mailer-cdn.top,bounce@mailer-cdn[.]top,0,unknown,,,local_feed=0 (not in local feed)
+email,support@contoso.com,support@contoso[.]com,0,unknown,,,local_feed=0 (not in local feed)
+url,https://www.microsoft.com/privacy,hxxps[://]www[.]microsoft[.]com/privacy,0,clean,allowlist,,local_feed=0 (allowlist)

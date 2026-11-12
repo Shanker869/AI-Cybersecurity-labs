@@ -1,0 +1,11 @@
+[
+ {"value": "203.0.113.66", "type": "ipv4", "score": 95, "tags": ["c2", "cobalt-strike"], "source": "lab MISP event 1042"},
+ {"value": "198.51.100.23", "type": "ipv4", "score": 60, "tags": ["scanner", "brute-force"], "source": "lab honeypot"},
+ {"value": "login-micros0ft.top", "type": "domain", "score": 90, "tags": ["phishing", "credential-harvest"], "source": "lab MISP event 1043"},
+ {"value": "cdn-update.xyz", "type": "domain", "score": 85, "tags": ["malware-delivery", "loader"], "source": "lab MISP event 1042"},
+ {"value": "secure-paypa1.com", "type": "domain", "score": 80, "tags": ["phishing"], "source": "lab phishing feed"},
+ {"value": "9f2b5c1e0f4b3a7d8e6c5b4a39281706f5e4d3c2b1a09f8e7d6c5b4a39281706", "type": "sha256", "score": 100, "tags": ["ransomware", "loader"], "source": "lab sandbox"},
+ {"value": "44d88612fea8a8f36de82e1278abb02f", "type": "md5", "score": 100, "tags": ["eicar-test-file"], "source": "EICAR"},
+ {"value": "CVE-2023-23397", "type": "cve", "score": 75, "tags": ["exploit", "outlook", "known-exploited"], "source": "CISA KEV"},
+ {"value": "www.microsoft.com", "type": "domain", "score": 0, "tags": ["allowlist"], "source": "allowlist"}
+]

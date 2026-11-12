@@ -1,0 +1,4 @@
+# Core lab uses only the Python standard library.
+# Optional REST API:
+fastapi>=0.110
+uvicorn>=0.29

@@ -1,0 +1,6 @@
+host,criticality,owner
+FILESRV01,5,IT
+VPN-GW01,5,Network
+FIN-WS-07,3,Finance
+IT-ADMIN-02,4,IT
+DEV-LAPTOP-3,1,Engineering

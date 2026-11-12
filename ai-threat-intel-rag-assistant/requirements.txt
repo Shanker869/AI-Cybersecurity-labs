@@ -1,0 +1,2 @@
+# Standard library only. Optional PDF ingest:
+pypdf>=4.0

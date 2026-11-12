@@ -1,0 +1,323 @@
+[
+  {
+    "id": "INC-0001",
+    "score": 100,
+    "verdict": "escalate",
+    "reasons": [
+      "highest alert severity 100",
+      "6 correlated alerts (+15)",
+      "kill-chain progression across 6 tactics (+15)",
+      "critical asset (criticality 5) (+10)",
+      "threat-intel match: 9f2b5c1e0f4b3a7d8e6c5b4a39281706f5e4d3c2b1a09f8e7d6c5b4a39281706 (+20)"
+    ],
+    "hosts": [
+      "FILESRV01",
+      "FIN-WS-07"
+    ],
+    "users": [
+      "bwilson"
+    ],
+    "src_ips": [
+      "10.20.4.77"
+    ],
+    "techniques": [
+      "T1003.001",
+      "T1021.001",
+      "T1053.005",
+      "T1059.001",
+      "T1490",
+      "T1566.001"
+    ],
+    "tactics": [
+      "initial-access",
+      "execution",
+      "persistence",
+      "credential-access",
+      "lateral-movement",
+      "impact"
+    ],
+    "first_seen": "2026-11-04T09:12:05+00:00",
+    "last_seen": "2026-11-04T09:41:07+00:00",
+    "alert_count": 6,
+    "summary": "6 alert(s) on FILESRV01, FIN-WS-07 involving bwilson: Credential dumping: LSASS memory access; Encoded PowerShell spawned by WINWORD.EXE; RDP logon from workstation to file server; Scheduled task created for persistence; Suspicious Office attachment opened from external email. Tactics observed: initial-access, execution, persistence, credential-access, lateral-movement, impact. Score 100 -> **escalate**. Next steps: validate the alerts against raw telemetry, scope other hosts for the same indicators, and contain the host/account if malicious activity is confirmed.",
+    "analyst_verdict": null,
+    "analyst_notes": "",
+    "alerts": [
+      {
+        "id": "snt-1001",
+        "time": "2026-11-04T09:12:05+00:00",
+        "source": "sentinel",
+        "rule": "Suspicious Office attachment opened from external email",
+        "severity": 50,
+        "host": "FIN-WS-07",
+        "user": "bwilson",
+        "src_ip": "",
+        "dst_ip": "",
+        "process": "",
+        "command_line": "",
+        "file_hash": "",
+        "mitre": [
+          "T1566.001"
+        ]
+      },
+      {
+        "id": "cs-2001",
+        "time": "2026-11-04T09:13:40+00:00",
+        "source": "crowdstrike",
+        "rule": "Encoded PowerShell spawned by WINWORD.EXE",
+        "severity": 80,
+        "host": "FIN-WS-07",
+        "user": "bwilson",
+        "src_ip": "",
+        "dst_ip": "",
+        "process": "powershell.exe",
+        "command_line": "powershell.exe -nop -w hidden -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQA",
+        "file_hash": "",
+        "mitre": [
+          "T1059.001"
+        ]
+      },
+      {
+        "id": "wz-3001",
+        "time": "2026-11-04T09:15:02+00:00",
+        "source": "wazuh",
+        "rule": "Scheduled task created for persistence",
+        "severity": 67,
+        "host": "FIN-WS-07",
+        "user": "bwilson",
+        "src_ip": "",
+        "dst_ip": "",
+        "process": "schtasks.exe",
+        "command_line": "schtasks /create /sc minute /mo 30 /tn Updater /tr C:\\Users\\Public\\upd.exe",
+        "file_hash": "",
+        "mitre": [
+          "T1053.005"
+        ]
+      },
+      {
+        "id": "cs-2002",
+        "time": "2026-11-04T09:21:18+00:00",
+        "source": "crowdstrike",
+        "rule": "Credential dumping: LSASS memory access",
+        "severity": 100,
+        "host": "FIN-WS-07",
+        "user": "bwilson",
+        "src_ip": "",
+        "dst_ip": "",
+        "process": "upd.exe",
+        "command_line": "",
+        "file_hash": "9f2b5c1e0f4b3a7d8e6c5b4a39281706f5e4d3c2b1a09f8e7d6c5b4a39281706",
+        "mitre": [
+          "T1003.001"
+        ]
+      },
+      {
+        "id": "wz-3002",
+        "time": "2026-11-04T09:34:50+00:00",
+        "source": "wazuh",
+        "rule": "RDP logon from workstation to file server",
+        "severity": 80,
+        "host": "FILESRV01",
+        "user": "bwilson",
+        "src_ip": "10.20.4.77",
+        "dst_ip": "",
+        "process": "",
+        "command_line": "",
+        "file_hash": "",
+        "mitre": [
+          "T1021.001"
+        ]
+      },
+      {
+        "id": "cs-2003",
+        "time": "2026-11-04T09:41:07+00:00",
+        "source": "crowdstrike",
+        "rule": "Volume shadow copies deleted (ransomware precursor)",
+        "severity": 100,
+        "host": "FILESRV01",
+        "user": "bwilson",
+        "src_ip": "",
+        "dst_ip": "",
+        "process": "vssadmin.exe",
+        "command_line": "vssadmin delete shadows /all /quiet",
+        "file_hash": "",
+        "mitre": [
+          "T1490"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "INC-0002",
+    "score": 96,
+    "verdict": "escalate",
+    "reasons": [
+      "highest alert severity 50",
+      "3 correlated alerts (+6)",
+      "critical asset (criticality 5) (+10)",
+      "privileged account(s): admin.jlee (+10)",
+      "threat-intel match: 203.0.113.66 (+20)"
+    ],
+    "hosts": [
+      "VPN-GW01"
+    ],
+    "users": [
+      "admin.jlee"
+    ],
+    "src_ips": [
+      "203.0.113.66"
+    ],
+    "techniques": [
+      "T1110"
+    ],
+    "tactics": [
+      "credential-access"
+    ],
+    "first_seen": "2026-11-04T13:00:00+00:00",
+    "last_seen": "2026-11-04T13:02:00+00:00",
+    "alert_count": 3,
+    "summary": "3 alert(s) on VPN-GW01 involving admin.jlee: VPN authentication failures above threshold. Tactics observed: credential-access. Score 96 -> **escalate**. Next steps: validate the alerts against raw telemetry, scope other hosts for the same indicators, and contain the host/account if malicious activity is confirmed.",
+    "analyst_verdict": null,
+    "analyst_notes": "",
+    "alerts": [
+      {
+        "id": "siem-400",
+        "time": "2026-11-04T13:00:00+00:00",
+        "source": "splunk",
+        "rule": "VPN authentication failures above threshold",
+        "severity": 50,
+        "host": "VPN-GW01",
+        "user": "admin.jlee",
+        "src_ip": "203.0.113.66",
+        "dst_ip": "",
+        "process": "",
+        "command_line": "",
+        "file_hash": "",
+        "mitre": [
+          "T1110"
+        ]
+      },
+      {
+        "id": "siem-401",
+        "time": "2026-11-04T13:01:00+00:00",
+        "source": "splunk",
+        "rule": "VPN authentication failures above threshold",
+        "severity": 50,
+        "host": "VPN-GW01",
+        "user": "admin.jlee",
+        "src_ip": "203.0.113.66",
+        "dst_ip": "",
+        "process": "",
+        "command_line": "",
+        "file_hash": "",
+        "mitre": [
+          "T1110"
+        ]
+      },
+      {
+        "id": "siem-402",
+        "time": "2026-11-04T13:02:00+00:00",
+        "source": "splunk",
+        "rule": "VPN authentication failures above threshold",
+        "severity": 50,
+        "host": "VPN-GW01",
+        "user": "admin.jlee",
+        "src_ip": "203.0.113.66",
+        "dst_ip": "",
+        "process": "",
+        "command_line": "",
+        "file_hash": "",
+        "mitre": [
+          "T1110"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "INC-0003",
+    "score": 57,
+    "verdict": "investigate",
+    "reasons": [
+      "highest alert severity 47",
+      "critical asset (criticality 4) (+10)"
+    ],
+    "hosts": [
+      "IT-ADMIN-02"
+    ],
+    "users": [],
+    "src_ips": [
+      "10.20.9.15"
+    ],
+    "techniques": [
+      "T1018"
+    ],
+    "tactics": [
+      "discovery"
+    ],
+    "first_seen": "2026-11-04T15:22:10+00:00",
+    "last_seen": "2026-11-04T15:22:10+00:00",
+    "alert_count": 1,
+    "summary": "1 alert(s) on IT-ADMIN-02 involving no named user: Internal host scanning many ports (Suricata ET SCAN). Tactics observed: discovery. Score 57 -> **investigate**. Next steps: validate the alerts against raw telemetry, scope other hosts for the same indicators, and contain the host/account if malicious activity is confirmed.",
+    "analyst_verdict": null,
+    "analyst_notes": "",
+    "alerts": [
+      {
+        "id": "wz-3003",
+        "time": "2026-11-04T15:22:10+00:00",
+        "source": "wazuh",
+        "rule": "Internal host scanning many ports (Suricata ET SCAN)",
+        "severity": 47,
+        "host": "IT-ADMIN-02",
+        "user": "",
+        "src_ip": "10.20.9.15",
+        "dst_ip": "",
+        "process": "",
+        "command_line": "",
+        "file_hash": "",
+        "mitre": [
+          "T1018"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "INC-0004",
+    "score": 25,
+    "verdict": "close-benign",
+    "reasons": [
+      "highest alert severity 25"
+    ],
+    "hosts": [
+      "DEV-LAPTOP-3"
+    ],
+    "users": [
+      "rkumar"
+    ],
+    "src_ips": [],
+    "techniques": [],
+    "tactics": [],
+    "first_seen": "2026-11-04T17:45:00+00:00",
+    "last_seen": "2026-11-04T17:45:00+00:00",
+    "alert_count": 1,
+    "summary": "1 alert(s) on DEV-LAPTOP-3 involving rkumar: New software installed (Notepad++). Tactics observed: n/a. Score 25 -> **close-benign**. Next steps: validate the alerts against raw telemetry, scope other hosts for the same indicators, and contain the host/account if malicious activity is confirmed.",
+    "analyst_verdict": null,
+    "analyst_notes": "",
+    "alerts": [
+      {
+        "id": "siem-5001",
+        "time": "2026-11-04T17:45:00+00:00",
+        "source": "splunk",
+        "rule": "New software installed (Notepad++)",
+        "severity": 25,
+        "host": "DEV-LAPTOP-3",
+        "user": "rkumar",
+        "src_ip": "",
+        "dst_ip": "",
+        "process": "",
+        "command_line": "",
+        "file_hash": "",
+        "mitre": []
+      }
+    ]
+  }
+]

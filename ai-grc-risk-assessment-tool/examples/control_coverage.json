@@ -1,0 +1,465 @@
+{
+  "nist_csf": [
+    {
+      "control": "DE.CM-01",
+      "pass": 1,
+      "fail": 2,
+      "status": "Not met",
+      "pass_rate": 33
+    },
+    {
+      "control": "DE.CM-09",
+      "pass": 1,
+      "fail": 2,
+      "status": "Not met",
+      "pass_rate": 33
+    },
+    {
+      "control": "ID.RA-01",
+      "pass": 0,
+      "fail": 1,
+      "status": "Not met",
+      "pass_rate": 0
+    },
+    {
+      "control": "PR.AA-01",
+      "pass": 2,
+      "fail": 4,
+      "status": "Not met",
+      "pass_rate": 33
+    },
+    {
+      "control": "PR.AA-03",
+      "pass": 2,
+      "fail": 4,
+      "status": "Not met",
+      "pass_rate": 33
+    },
+    {
+      "control": "PR.AA-05",
+      "pass": 1,
+      "fail": 3,
+      "status": "Not met",
+      "pass_rate": 25
+    },
+    {
+      "control": "PR.DS-01",
+      "pass": 4,
+      "fail": 3,
+      "status": "Not met",
+      "pass_rate": 57
+    },
+    {
+      "control": "PR.DS-02",
+      "pass": 0,
+      "fail": 2,
+      "status": "Not met",
+      "pass_rate": 0
+    },
+    {
+      "control": "PR.DS-11",
+      "pass": 0,
+      "fail": 2,
+      "status": "Not met",
+      "pass_rate": 0
+    },
+    {
+      "control": "PR.IR-01",
+      "pass": 1,
+      "fail": 2,
+      "status": "Not met",
+      "pass_rate": 33
+    },
+    {
+      "control": "PR.PS-01",
+      "pass": 0,
+      "fail": 2,
+      "status": "Not met",
+      "pass_rate": 0
+    },
+    {
+      "control": "PR.PS-02",
+      "pass": 0,
+      "fail": 1,
+      "status": "Not met",
+      "pass_rate": 0
+    },
+    {
+      "control": "PR.PS-04",
+      "pass": 1,
+      "fail": 2,
+      "status": "Not met",
+      "pass_rate": 33
+    },
+    {
+      "control": "RC.RP-03",
+      "pass": 0,
+      "fail": 2,
+      "status": "Not met",
+      "pass_rate": 0
+    }
+  ],
+  "iso27001": [
+    {
+      "control": "A.5.12",
+      "pass": 0,
+      "fail": 2,
+      "status": "Not met",
+      "pass_rate": 0
+    },
+    {
+      "control": "A.5.14",
+      "pass": 0,
+      "fail": 2,
+      "status": "Not met",
+      "pass_rate": 0
+    },
+    {
+      "control": "A.5.15",
+      "pass": 1,
+      "fail": 1,
+      "status": "Not met",
+      "pass_rate": 50
+    },
+    {
+      "control": "A.5.16",
+      "pass": 2,
+      "fail": 4,
+      "status": "Not met",
+      "pass_rate": 33
+    },
+    {
+      "control": "A.5.17",
+      "pass": 2,
+      "fail": 4,
+      "status": "Not met",
+      "pass_rate": 33
+    },
+    {
+      "control": "A.5.18",
+      "pass": 1,
+      "fail": 1,
+      "status": "Not met",
+      "pass_rate": 50
+    },
+    {
+      "control": "A.8.13",
+      "pass": 0,
+      "fail": 2,
+      "status": "Not met",
+      "pass_rate": 0
+    },
+    {
+      "control": "A.8.14",
+      "pass": 0,
+      "fail": 2,
+      "status": "Not met",
+      "pass_rate": 0
+    },
+    {
+      "control": "A.8.15",
+      "pass": 1,
+      "fail": 2,
+      "status": "Not met",
+      "pass_rate": 33
+    },
+    {
+      "control": "A.8.16",
+      "pass": 1,
+      "fail": 2,
+      "status": "Not met",
+      "pass_rate": 33
+    },
+    {
+      "control": "A.8.2",
+      "pass": 1,
+      "fail": 1,
+      "status": "Not met",
+      "pass_rate": 50
+    },
+    {
+      "control": "A.8.20",
+      "pass": 1,
+      "fail": 2,
+      "status": "Not met",
+      "pass_rate": 33
+    },
+    {
+      "control": "A.8.22",
+      "pass": 1,
+      "fail": 2,
+      "status": "Not met",
+      "pass_rate": 33
+    },
+    {
+      "control": "A.8.24",
+      "pass": 4,
+      "fail": 3,
+      "status": "Not met",
+      "pass_rate": 57
+    },
+    {
+      "control": "A.8.3",
+      "pass": 0,
+      "fail": 2,
+      "status": "Not met",
+      "pass_rate": 0
+    },
+    {
+      "control": "A.8.5",
+      "pass": 2,
+      "fail": 4,
+      "status": "Not met",
+      "pass_rate": 33
+    },
+    {
+      "control": "A.8.8",
+      "pass": 0,
+      "fail": 1,
+      "status": "Not met",
+      "pass_rate": 0
+    },
+    {
+      "control": "A.8.9",
+      "pass": 0,
+      "fail": 2,
+      "status": "Not met",
+      "pass_rate": 0
+    }
+  ],
+  "soc2": [
+    {
+      "control": "A1.2",
+      "pass": 0,
+      "fail": 2,
+      "status": "Not met",
+      "pass_rate": 0
+    },
+    {
+      "control": "A1.3",
+      "pass": 0,
+      "fail": 2,
+      "status": "Not met",
+      "pass_rate": 0
+    },
+    {
+      "control": "C1.1",
+      "pass": 0,
+      "fail": 2,
+      "status": "Not met",
+      "pass_rate": 0
+    },
+    {
+      "control": "CC6.1",
+      "pass": 7,
+      "fail": 8,
+      "status": "Not met",
+      "pass_rate": 47
+    },
+    {
+      "control": "CC6.2",
+      "pass": 2,
+      "fail": 4,
+      "status": "Not met",
+      "pass_rate": 33
+    },
+    {
+      "control": "CC6.3",
+      "pass": 1,
+      "fail": 1,
+      "status": "Not met",
+      "pass_rate": 50
+    },
+    {
+      "control": "CC6.6",
+      "pass": 1,
+      "fail": 2,
+      "status": "Not met",
+      "pass_rate": 33
+    },
+    {
+      "control": "CC6.7",
+      "pass": 0,
+      "fail": 2,
+      "status": "Not met",
+      "pass_rate": 0
+    },
+    {
+      "control": "CC7.1",
+      "pass": 0,
+      "fail": 3,
+      "status": "Not met",
+      "pass_rate": 0
+    },
+    {
+      "control": "CC7.2",
+      "pass": 1,
+      "fail": 2,
+      "status": "Not met",
+      "pass_rate": 33
+    },
+    {
+      "control": "CC7.3",
+      "pass": 1,
+      "fail": 2,
+      "status": "Not met",
+      "pass_rate": 33
+    },
+    {
+      "control": "CC8.1",
+      "pass": 0,
+      "fail": 2,
+      "status": "Not met",
+      "pass_rate": 0
+    }
+  ],
+  "nist_800_53": [
+    {
+      "control": "AC-2",
+      "pass": 2,
+      "fail": 4,
+      "status": "Not met",
+      "pass_rate": 33
+    },
+    {
+      "control": "AC-21",
+      "pass": 0,
+      "fail": 2,
+      "status": "Not met",
+      "pass_rate": 0
+    },
+    {
+      "control": "AC-3",
+      "pass": 1,
+      "fail": 3,
+      "status": "Not met",
+      "pass_rate": 25
+    },
+    {
+      "control": "AC-4",
+      "pass": 1,
+      "fail": 2,
+      "status": "Not met",
+      "pass_rate": 33
+    },
+    {
+      "control": "AC-6",
+      "pass": 1,
+      "fail": 1,
+      "status": "Not met",
+      "pass_rate": 50
+    },
+    {
+      "control": "AU-12",
+      "pass": 1,
+      "fail": 2,
+      "status": "Not met",
+      "pass_rate": 33
+    },
+    {
+      "control": "AU-2",
+      "pass": 1,
+      "fail": 2,
+      "status": "Not met",
+      "pass_rate": 33
+    },
+    {
+      "control": "CM-6",
+      "pass": 0,
+      "fail": 2,
+      "status": "Not met",
+      "pass_rate": 0
+    },
+    {
+      "control": "CM-7",
+      "pass": 0,
+      "fail": 2,
+      "status": "Not met",
+      "pass_rate": 0
+    },
+    {
+      "control": "CP-10",
+      "pass": 0,
+      "fail": 2,
+      "status": "Not met",
+      "pass_rate": 0
+    },
+    {
+      "control": "CP-9",
+      "pass": 0,
+      "fail": 2,
+      "status": "Not met",
+      "pass_rate": 0
+    },
+    {
+      "control": "IA-2",
+      "pass": 2,
+      "fail": 4,
+      "status": "Not met",
+      "pass_rate": 33
+    },
+    {
+      "control": "IA-5",
+      "pass": 2,
+      "fail": 4,
+      "status": "Not met",
+      "pass_rate": 33
+    },
+    {
+      "control": "RA-5",
+      "pass": 0,
+      "fail": 1,
+      "status": "Not met",
+      "pass_rate": 0
+    },
+    {
+      "control": "SC-12",
+      "pass": 4,
+      "fail": 1,
+      "status": "Not met",
+      "pass_rate": 80
+    },
+    {
+      "control": "SC-13",
+      "pass": 0,
+      "fail": 2,
+      "status": "Not met",
+      "pass_rate": 0
+    },
+    {
+      "control": "SC-28",
+      "pass": 4,
+      "fail": 1,
+      "status": "Not met",
+      "pass_rate": 80
+    },
+    {
+      "control": "SC-7",
+      "pass": 1,
+      "fail": 2,
+      "status": "Not met",
+      "pass_rate": 33
+    },
+    {
+      "control": "SC-8",
+      "pass": 0,
+      "fail": 2,
+      "status": "Not met",
+      "pass_rate": 0
+    },
+    {
+      "control": "SI-2",
+      "pass": 0,
+      "fail": 1,
+      "status": "Not met",
+      "pass_rate": 0
+    },
+    {
+      "control": "SI-4",
+      "pass": 1,
+      "fail": 2,
+      "status": "Not met",
+      "pass_rate": 33
+    }
+  ]
+}

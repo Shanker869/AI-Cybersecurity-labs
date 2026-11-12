@@ -1,0 +1,236 @@
+[
+  {
+    "type": "md5",
+    "value": "44d88612fea8a8f36de82e1278abb02f",
+    "defanged": "44d88612fea8a8f36de82e1278abb02f",
+    "score": 100,
+    "verdict": "malicious",
+    "tags": "eicar-test-file",
+    "mitre_hints": "",
+    "sources": "local_feed=100 (EICAR)",
+    "results": [
+      {
+        "provider": "local_feed",
+        "score": 100,
+        "verdict": "malicious",
+        "tags": [
+          "eicar-test-file"
+        ],
+        "detail": "EICAR"
+      }
+    ]
+  },
+  {
+    "type": "sha256",
+    "value": "9f2b5c1e0f4b3a7d8e6c5b4a39281706f5e4d3c2b1a09f8e7d6c5b4a39281706",
+    "defanged": "9f2b5c1e0f4b3a7d8e6c5b4a39281706f5e4d3c2b1a09f8e7d6c5b4a39281706",
+    "score": 100,
+    "verdict": "malicious",
+    "tags": "loader;ransomware",
+    "mitre_hints": "T1105;T1486",
+    "sources": "local_feed=100 (lab sandbox)",
+    "results": [
+      {
+        "provider": "local_feed",
+        "score": 100,
+        "verdict": "malicious",
+        "tags": [
+          "ransomware",
+          "loader"
+        ],
+        "detail": "lab sandbox"
+      }
+    ]
+  },
+  {
+    "type": "ipv4",
+    "value": "203.0.113.66",
+    "defanged": "203[.]0[.]113[.]66",
+    "score": 95,
+    "verdict": "malicious",
+    "tags": "c2;cobalt-strike",
+    "mitre_hints": "T1071;T1071.001",
+    "sources": "local_feed=95 (lab MISP event 1042)",
+    "results": [
+      {
+        "provider": "local_feed",
+        "score": 95,
+        "verdict": "malicious",
+        "tags": [
+          "c2",
+          "cobalt-strike"
+        ],
+        "detail": "lab MISP event 1042"
+      }
+    ]
+  },
+  {
+    "type": "url",
+    "value": "https://login-micros0ft.top/auth/office365?session=8812",
+    "defanged": "hxxps[://]login-micros0ft[.]top/auth/office365?session=8812",
+    "score": 90,
+    "verdict": "malicious",
+    "tags": "credential-harvest;phishing",
+    "mitre_hints": "T1566",
+    "sources": "local_feed=90 (lab MISP event 1043)",
+    "results": [
+      {
+        "provider": "local_feed",
+        "score": 90,
+        "verdict": "malicious",
+        "tags": [
+          "phishing",
+          "credential-harvest"
+        ],
+        "detail": "lab MISP event 1043"
+      }
+    ]
+  },
+  {
+    "type": "url",
+    "value": "http://cdn-update.xyz/upd.exe",
+    "defanged": "hxxp[://]cdn-update[.]xyz/upd[.]exe",
+    "score": 85,
+    "verdict": "malicious",
+    "tags": "loader;malware-delivery",
+    "mitre_hints": "T1105",
+    "sources": "local_feed=85 (lab MISP event 1042)",
+    "results": [
+      {
+        "provider": "local_feed",
+        "score": 85,
+        "verdict": "malicious",
+        "tags": [
+          "malware-delivery",
+          "loader"
+        ],
+        "detail": "lab MISP event 1042"
+      }
+    ]
+  },
+  {
+    "type": "email",
+    "value": "billing@secure-paypa1.com",
+    "defanged": "billing@secure-paypa1[.]com",
+    "score": 80,
+    "verdict": "malicious",
+    "tags": "phishing",
+    "mitre_hints": "T1566",
+    "sources": "local_feed=80 (lab phishing feed)",
+    "results": [
+      {
+        "provider": "local_feed",
+        "score": 80,
+        "verdict": "malicious",
+        "tags": [
+          "phishing"
+        ],
+        "detail": "lab phishing feed"
+      }
+    ]
+  },
+  {
+    "type": "cve",
+    "value": "CVE-2023-23397",
+    "defanged": "CVE-2023-23397",
+    "score": 75,
+    "verdict": "malicious",
+    "tags": "exploit;known-exploited;outlook",
+    "mitre_hints": "T1190",
+    "sources": "local_feed=75 (CISA KEV)",
+    "results": [
+      {
+        "provider": "local_feed",
+        "score": 75,
+        "verdict": "malicious",
+        "tags": [
+          "exploit",
+          "outlook",
+          "known-exploited"
+        ],
+        "detail": "CISA KEV"
+      }
+    ]
+  },
+  {
+    "type": "ipv4",
+    "value": "198.51.100.23",
+    "defanged": "198[.]51[.]100[.]23",
+    "score": 60,
+    "verdict": "suspicious",
+    "tags": "brute-force;scanner",
+    "mitre_hints": "T1110;T1595",
+    "sources": "local_feed=60 (lab honeypot)",
+    "results": [
+      {
+        "provider": "local_feed",
+        "score": 60,
+        "verdict": "suspicious",
+        "tags": [
+          "scanner",
+          "brute-force"
+        ],
+        "detail": "lab honeypot"
+      }
+    ]
+  },
+  {
+    "type": "email",
+    "value": "bounce@mailer-cdn.top",
+    "defanged": "bounce@mailer-cdn[.]top",
+    "score": 0,
+    "verdict": "unknown",
+    "tags": "",
+    "mitre_hints": "",
+    "sources": "local_feed=0 (not in local feed)",
+    "results": [
+      {
+        "provider": "local_feed",
+        "score": 0,
+        "verdict": "unknown",
+        "tags": [],
+        "detail": "not in local feed"
+      }
+    ]
+  },
+  {
+    "type": "email",
+    "value": "support@contoso.com",
+    "defanged": "support@contoso[.]com",
+    "score": 0,
+    "verdict": "unknown",
+    "tags": "",
+    "mitre_hints": "",
+    "sources": "local_feed=0 (not in local feed)",
+    "results": [
+      {
+        "provider": "local_feed",
+        "score": 0,
+        "verdict": "unknown",
+        "tags": [],
+        "detail": "not in local feed"
+      }
+    ]
+  },
+  {
+    "type": "url",
+    "value": "https://www.microsoft.com/privacy",
+    "defanged": "hxxps[://]www[.]microsoft[.]com/privacy",
+    "score": 0,
+    "verdict": "clean",
+    "tags": "allowlist",
+    "mitre_hints": "",
+    "sources": "local_feed=0 (allowlist)",
+    "results": [
+      {
+        "provider": "local_feed",
+        "score": 0,
+        "verdict": "clean",
+        "tags": [
+          "allowlist"
+        ],
+        "detail": "allowlist"
+      }
+    ]
+  }
+]

@@ -1,0 +1,445 @@
+{
+  "type": "bundle",
+  "id": "bundle--978d2c38-2225-4aa6-aa05-6a2e7039fa78",
+  "objects": [
+    {
+      "type": "identity",
+      "spec_version": "2.1",
+      "id": "identity--638d3c83-2791-577c-9a73-2504d62d6f56",
+      "created": "2026-11-11T18:32:25.000Z",
+      "modified": "2026-11-11T18:32:25.000Z",
+      "name": "TI RAG home lab",
+      "identity_class": "individual"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--5bc9b3d1-a170-5f0d-9ef2-761741e8855e",
+      "created": "2026-11-11T18:32:25.000Z",
+      "modified": "2026-11-11T18:32:25.000Z",
+      "name": "198.51.100.200",
+      "pattern": "[ipv4-addr:value = '198.51.100.200']",
+      "pattern_type": "stix",
+      "valid_from": "2026-11-11T18:32:25.000Z",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "created_by_ref": "identity--638d3c83-2791-577c-9a73-2504d62d6f56"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--fe527d47-de73-5f56-a72d-468f99d9aa23",
+      "created": "2026-11-11T18:32:25.000Z",
+      "modified": "2026-11-11T18:32:25.000Z",
+      "name": "docs-share-view.site",
+      "pattern": "[domain-name:value = 'docs-share-view.site']",
+      "pattern_type": "stix",
+      "valid_from": "2026-11-11T18:32:25.000Z",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "created_by_ref": "identity--638d3c83-2791-577c-9a73-2504d62d6f56"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--4cebf2cb-d942-59d2-8b41-a2a9f8fa9dad",
+      "created": "2026-11-11T18:32:25.000Z",
+      "modified": "2026-11-11T18:32:25.000Z",
+      "name": "secure-ledger-api.xyz",
+      "pattern": "[domain-name:value = 'secure-ledger-api.xyz']",
+      "pattern_type": "stix",
+      "valid_from": "2026-11-11T18:32:25.000Z",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "created_by_ref": "identity--638d3c83-2791-577c-9a73-2504d62d6f56"
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.1",
+      "id": "attack-pattern--0cde2b2a-20fc-5480-95f5-3d9d08a68d00",
+      "created": "2026-11-11T18:32:25.000Z",
+      "modified": "2026-11-11T18:32:25.000Z",
+      "name": "T1027",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1027",
+          "url": "https://attack.mitre.org/techniques/T1027/"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.1",
+      "id": "attack-pattern--d9252bd7-707f-5a48-b74d-6097c67e4a12",
+      "created": "2026-11-11T18:32:25.000Z",
+      "modified": "2026-11-11T18:32:25.000Z",
+      "name": "T1027.006",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1027.006",
+          "url": "https://attack.mitre.org/techniques/T1027/006/"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.1",
+      "id": "attack-pattern--ec237204-1212-5c9b-8470-6bdd8e4869fb",
+      "created": "2026-11-11T18:32:25.000Z",
+      "modified": "2026-11-11T18:32:25.000Z",
+      "name": "T1041",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1041",
+          "url": "https://attack.mitre.org/techniques/T1041/"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.1",
+      "id": "attack-pattern--ee83ff2b-2876-51c7-9a1c-ddbf7ae6fd17",
+      "created": "2026-11-11T18:32:25.000Z",
+      "modified": "2026-11-11T18:32:25.000Z",
+      "name": "T1070.001",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1070.001",
+          "url": "https://attack.mitre.org/techniques/T1070/001/"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.1",
+      "id": "attack-pattern--676c3aa9-dc7f-5437-83b6-743b2cd6d5f9",
+      "created": "2026-11-11T18:32:25.000Z",
+      "modified": "2026-11-11T18:32:25.000Z",
+      "name": "T1204.002",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1204.002",
+          "url": "https://attack.mitre.org/techniques/T1204/002/"
+        }
+      ]
+    },
+    {
+      "type": "report",
+      "spec_version": "2.1",
+      "id": "report--7045d9a1-3ea4-598d-8cc3-ba832baf7f92",
+      "created": "2026-11-11T18:32:25.000Z",
+      "modified": "2026-11-11T18:32:25.000Z",
+      "name": "COPPERFOX Infrastructure Update \u2014 October 2026",
+      "published": "2026-11-11T18:32:25.000Z",
+      "report_types": [
+        "threat-report"
+      ],
+      "object_refs": [
+        "indicator--5bc9b3d1-a170-5f0d-9ef2-761741e8855e",
+        "indicator--fe527d47-de73-5f56-a72d-468f99d9aa23",
+        "indicator--4cebf2cb-d942-59d2-8b41-a2a9f8fa9dad",
+        "attack-pattern--0cde2b2a-20fc-5480-95f5-3d9d08a68d00",
+        "attack-pattern--d9252bd7-707f-5a48-b74d-6097c67e4a12",
+        "attack-pattern--ec237204-1212-5c9b-8470-6bdd8e4869fb",
+        "attack-pattern--ee83ff2b-2876-51c7-9a1c-ddbf7ae6fd17",
+        "attack-pattern--676c3aa9-dc7f-5437-83b6-743b2cd6d5f9"
+      ],
+      "created_by_ref": "identity--638d3c83-2791-577c-9a73-2504d62d6f56"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--8262be0a-6e0f-5dff-8e46-106af3f64e42",
+      "created": "2026-11-11T18:32:25.000Z",
+      "modified": "2026-11-11T18:32:25.000Z",
+      "name": "203.0.113.140",
+      "pattern": "[ipv4-addr:value = '203.0.113.140']",
+      "pattern_type": "stix",
+      "valid_from": "2026-11-11T18:32:25.000Z",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "created_by_ref": "identity--638d3c83-2791-577c-9a73-2504d62d6f56"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--1ffbe0c5-7999-5d32-a028-ab0d8088ee36",
+      "created": "2026-11-11T18:32:25.000Z",
+      "modified": "2026-11-11T18:32:25.000Z",
+      "name": "203.0.113.141",
+      "pattern": "[ipv4-addr:value = '203.0.113.141']",
+      "pattern_type": "stix",
+      "valid_from": "2026-11-11T18:32:25.000Z",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "created_by_ref": "identity--638d3c83-2791-577c-9a73-2504d62d6f56"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--459de42a-1d75-51e1-a5d1-b5b521764794",
+      "created": "2026-11-11T18:32:25.000Z",
+      "modified": "2026-11-11T18:32:25.000Z",
+      "name": "cdn-sync-update.top",
+      "pattern": "[domain-name:value = 'cdn-sync-update.top']",
+      "pattern_type": "stix",
+      "valid_from": "2026-11-11T18:32:25.000Z",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "created_by_ref": "identity--638d3c83-2791-577c-9a73-2504d62d6f56"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--442c7549-4dd8-5f2e-a241-f4117e399351",
+      "created": "2026-11-11T18:32:25.000Z",
+      "modified": "2026-11-11T18:32:25.000Z",
+      "name": "4b7e1c0d9a8f7e6d5c4b3a291807f6e5d4c3b2a1908f7e6d5c4b3a2918070f6e",
+      "pattern": "[file:hashes.'SHA-256' = '4b7e1c0d9a8f7e6d5c4b3a291807f6e5d4c3b2a1908f7e6d5c4b3a2918070f6e']",
+      "pattern_type": "stix",
+      "valid_from": "2026-11-11T18:32:25.000Z",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "created_by_ref": "identity--638d3c83-2791-577c-9a73-2504d62d6f56"
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.1",
+      "id": "attack-pattern--d41045e9-e6cc-58eb-a75a-d26ba6624c26",
+      "created": "2026-11-11T18:32:25.000Z",
+      "modified": "2026-11-11T18:32:25.000Z",
+      "name": "T1003.001",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1003.001",
+          "url": "https://attack.mitre.org/techniques/T1003/001/"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.1",
+      "id": "attack-pattern--68cd2088-b7ec-57ff-800e-ca3e0d696cfe",
+      "created": "2026-11-11T18:32:25.000Z",
+      "modified": "2026-11-11T18:32:25.000Z",
+      "name": "T1021.001",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1021.001",
+          "url": "https://attack.mitre.org/techniques/T1021/001/"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.1",
+      "id": "attack-pattern--9b75e0d5-9cec-5609-81c5-b11ea5429ac9",
+      "created": "2026-11-11T18:32:25.000Z",
+      "modified": "2026-11-11T18:32:25.000Z",
+      "name": "T1053.005",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1053.005",
+          "url": "https://attack.mitre.org/techniques/T1053/005/"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.1",
+      "id": "attack-pattern--9f202de9-53b7-5212-bb1b-bc2358dcc934",
+      "created": "2026-11-11T18:32:25.000Z",
+      "modified": "2026-11-11T18:32:25.000Z",
+      "name": "T1059.001",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1059.001",
+          "url": "https://attack.mitre.org/techniques/T1059/001/"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.1",
+      "id": "attack-pattern--316f3840-b084-556c-9258-82edd64b3adf",
+      "created": "2026-11-11T18:32:25.000Z",
+      "modified": "2026-11-11T18:32:25.000Z",
+      "name": "T1071.001",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1071.001",
+          "url": "https://attack.mitre.org/techniques/T1071/001/"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.1",
+      "id": "attack-pattern--eaba9e85-c7eb-542e-a31d-83eec608aefc",
+      "created": "2026-11-11T18:32:25.000Z",
+      "modified": "2026-11-11T18:32:25.000Z",
+      "name": "T1190",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1190",
+          "url": "https://attack.mitre.org/techniques/T1190/"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.1",
+      "id": "attack-pattern--c62f157a-1e87-54b9-b7df-98f99045c955",
+      "created": "2026-11-11T18:32:25.000Z",
+      "modified": "2026-11-11T18:32:25.000Z",
+      "name": "T1566.001",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1566.001",
+          "url": "https://attack.mitre.org/techniques/T1566/001/"
+        }
+      ]
+    },
+    {
+      "type": "report",
+      "spec_version": "2.1",
+      "id": "report--d3a3d14b-90b0-513e-b6cc-e198ff6971cd",
+      "created": "2026-11-11T18:32:25.000Z",
+      "modified": "2026-11-11T18:32:25.000Z",
+      "name": "COPPERFOX Campaign Targeting Regional Banks (Q3 2026)",
+      "published": "2026-11-11T18:32:25.000Z",
+      "report_types": [
+        "threat-report"
+      ],
+      "object_refs": [
+        "indicator--8262be0a-6e0f-5dff-8e46-106af3f64e42",
+        "indicator--1ffbe0c5-7999-5d32-a028-ab0d8088ee36",
+        "indicator--459de42a-1d75-51e1-a5d1-b5b521764794",
+        "indicator--442c7549-4dd8-5f2e-a241-f4117e399351",
+        "attack-pattern--d41045e9-e6cc-58eb-a75a-d26ba6624c26",
+        "attack-pattern--68cd2088-b7ec-57ff-800e-ca3e0d696cfe",
+        "attack-pattern--9b75e0d5-9cec-5609-81c5-b11ea5429ac9",
+        "attack-pattern--9f202de9-53b7-5212-bb1b-bc2358dcc934",
+        "attack-pattern--316f3840-b084-556c-9258-82edd64b3adf",
+        "attack-pattern--eaba9e85-c7eb-542e-a31d-83eec608aefc",
+        "attack-pattern--c62f157a-1e87-54b9-b7df-98f99045c955"
+      ],
+      "created_by_ref": "identity--638d3c83-2791-577c-9a73-2504d62d6f56"
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--1e0f737f-a3a6-5e0d-89ee-771b55316156",
+      "created": "2026-11-11T18:32:25.000Z",
+      "modified": "2026-11-11T18:32:25.000Z",
+      "name": "5d41402abc4b2a76b9719d911017c592",
+      "pattern": "[file:hashes.MD5 = '5d41402abc4b2a76b9719d911017c592']",
+      "pattern_type": "stix",
+      "valid_from": "2026-11-11T18:32:25.000Z",
+      "indicator_types": [
+        "malicious-activity"
+      ],
+      "created_by_ref": "identity--638d3c83-2791-577c-9a73-2504d62d6f56"
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.1",
+      "id": "attack-pattern--e350aac9-a95a-5414-8d99-482566bc0519",
+      "created": "2026-11-11T18:32:25.000Z",
+      "modified": "2026-11-11T18:32:25.000Z",
+      "name": "T1486",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1486",
+          "url": "https://attack.mitre.org/techniques/T1486/"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.1",
+      "id": "attack-pattern--c2b05121-6110-54bd-abf8-f81818202ec6",
+      "created": "2026-11-11T18:32:25.000Z",
+      "modified": "2026-11-11T18:32:25.000Z",
+      "name": "T1490",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1490",
+          "url": "https://attack.mitre.org/techniques/T1490/"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.1",
+      "id": "attack-pattern--fd851384-0362-594d-98f6-f0f20e4cb9c6",
+      "created": "2026-11-11T18:32:25.000Z",
+      "modified": "2026-11-11T18:32:25.000Z",
+      "name": "T1562.001",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1562.001",
+          "url": "https://attack.mitre.org/techniques/T1562/001/"
+        }
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.1",
+      "id": "attack-pattern--da3d116f-462c-52b5-9e44-ea272111fb87",
+      "created": "2026-11-11T18:32:25.000Z",
+      "modified": "2026-11-11T18:32:25.000Z",
+      "name": "T1567",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1567",
+          "url": "https://attack.mitre.org/techniques/T1567/"
+        }
+      ]
+    },
+    {
+      "type": "report",
+      "spec_version": "2.1",
+      "id": "report--6e413b7d-49df-5889-83e9-429683507b92",
+      "created": "2026-11-11T18:32:25.000Z",
+      "modified": "2026-11-11T18:32:25.000Z",
+      "name": "Ransomware Trends Brief \u2014 2026 H2",
+      "published": "2026-11-11T18:32:25.000Z",
+      "report_types": [
+        "threat-report"
+      ],
+      "object_refs": [
+        "indicator--1e0f737f-a3a6-5e0d-89ee-771b55316156",
+        "attack-pattern--eaba9e85-c7eb-542e-a31d-83eec608aefc",
+        "attack-pattern--e350aac9-a95a-5414-8d99-482566bc0519",
+        "attack-pattern--c2b05121-6110-54bd-abf8-f81818202ec6",
+        "attack-pattern--fd851384-0362-594d-98f6-f0f20e4cb9c6",
+        "attack-pattern--da3d116f-462c-52b5-9e44-ea272111fb87"
+      ],
+      "created_by_ref": "identity--638d3c83-2791-577c-9a73-2504d62d6f56"
+    }
+  ]
+}

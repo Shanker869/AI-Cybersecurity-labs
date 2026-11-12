@@ -1,0 +1,246 @@
+{
+  "findings": [
+    {
+      "rule_id": "AUTH-003",
+      "title": "Successful logon after repeated failures",
+      "severity": "critical",
+      "mitre": [
+        "T1110",
+        "T1078"
+      ],
+      "description": "'jsmith' logged on from 203.0.113.45 after 18 failures in 10 min - likely compromised credentials.",
+      "user": "jsmith",
+      "src_ip": "203.0.113.45",
+      "host": "WS-FIN-01.corp.local",
+      "count": 19,
+      "first_seen": "2026-11-04T13:03:00+00:00",
+      "last_seen": "2026-11-04T13:07:00+00:00",
+      "evidence": [
+        "2026-11-04T13:03:00+00:00 EID 4625 user=jsmith ip=203.0.113.45 host=WS-FIN-01.corp.local logon_type=3",
+        "2026-11-04T13:03:12+00:00 EID 4625 user=jsmith ip=203.0.113.45 host=WS-FIN-01.corp.local logon_type=3",
+        "2026-11-04T13:03:24+00:00 EID 4625 user=jsmith ip=203.0.113.45 host=WS-FIN-01.corp.local logon_type=3",
+        "2026-11-04T13:03:36+00:00 EID 4625 user=jsmith ip=203.0.113.45 host=WS-FIN-01.corp.local logon_type=3",
+        "2026-11-04T13:03:48+00:00 EID 4625 user=jsmith ip=203.0.113.45 host=WS-FIN-01.corp.local logon_type=3"
+      ]
+    },
+    {
+      "rule_id": "AUTH-009",
+      "title": "Security log cleared",
+      "severity": "critical",
+      "mitre": [
+        "T1070.001"
+      ],
+      "description": "Security event log cleared by 'jsmith'.",
+      "user": "jsmith",
+      "src_ip": "",
+      "host": "WS-FIN-01.corp.local",
+      "count": 1,
+      "first_seen": "2026-11-04T13:29:00+00:00",
+      "last_seen": "2026-11-04T13:29:00+00:00",
+      "evidence": [
+        "2026-11-04T13:29:00+00:00 EID 1102 user=- ip=- host=WS-FIN-01.corp.local logon_type=None"
+      ]
+    },
+    {
+      "rule_id": "AUTH-001",
+      "title": "Brute-force against a single account",
+      "severity": "high",
+      "mitre": [
+        "T1110.001"
+      ],
+      "description": "18 failed logons for 'jsmith' within 5 min from 203.0.113.45.",
+      "user": "jsmith",
+      "src_ip": "203.0.113.45",
+      "host": "WS-FIN-01.corp.local",
+      "count": 18,
+      "first_seen": "2026-11-04T13:03:00+00:00",
+      "last_seen": "2026-11-04T13:06:24+00:00",
+      "evidence": [
+        "2026-11-04T13:03:00+00:00 EID 4625 user=jsmith ip=203.0.113.45 host=WS-FIN-01.corp.local logon_type=3",
+        "2026-11-04T13:03:12+00:00 EID 4625 user=jsmith ip=203.0.113.45 host=WS-FIN-01.corp.local logon_type=3",
+        "2026-11-04T13:03:24+00:00 EID 4625 user=jsmith ip=203.0.113.45 host=WS-FIN-01.corp.local logon_type=3",
+        "2026-11-04T13:03:36+00:00 EID 4625 user=jsmith ip=203.0.113.45 host=WS-FIN-01.corp.local logon_type=3",
+        "2026-11-04T13:03:48+00:00 EID 4625 user=jsmith ip=203.0.113.45 host=WS-FIN-01.corp.local logon_type=3"
+      ]
+    },
+    {
+      "rule_id": "AUTH-008",
+      "title": "Account added to a privileged group",
+      "severity": "high",
+      "mitre": [
+        "T1098"
+      ],
+      "description": "'jsmith' added a member to privileged group 'Administrators' (EID 4732).",
+      "user": "jsmith",
+      "src_ip": "",
+      "host": "DC01.corp.local",
+      "count": 1,
+      "first_seen": "2026-11-04T13:20:40+00:00",
+      "last_seen": "2026-11-04T13:20:40+00:00",
+      "evidence": [
+        "2026-11-04T13:20:40+00:00 EID 4732 user=administrators ip=- host=DC01.corp.local logon_type=None"
+      ]
+    },
+    {
+      "rule_id": "AUTH-006",
+      "title": "Explicit credentials used for many accounts",
+      "severity": "high",
+      "mitre": [
+        "T1078",
+        "T1550"
+      ],
+      "description": "'jsmith' used explicit credentials (runas/lateral movement) for 3 accounts.",
+      "user": "jsmith",
+      "src_ip": "",
+      "host": "WS-FIN-01.corp.local",
+      "count": 3,
+      "first_seen": "2026-11-04T13:22:00+00:00",
+      "last_seen": "2026-11-04T13:22:30+00:00",
+      "evidence": [
+        "2026-11-04T13:22:00+00:00 EID 4648 user=administrator ip=- host=WS-FIN-01.corp.local logon_type=None",
+        "2026-11-04T13:22:15+00:00 EID 4648 user=svc_sql ip=- host=WS-FIN-01.corp.local logon_type=None",
+        "2026-11-04T13:22:30+00:00 EID 4648 user=rpatel ip=- host=WS-FIN-01.corp.local logon_type=None"
+      ]
+    },
+    {
+      "rule_id": "AUTH-002",
+      "title": "Password spraying from one source",
+      "severity": "high",
+      "mitre": [
+        "T1110.003"
+      ],
+      "description": "198.51.100.23 failed against 10 different accounts within 10 min: adoe, jsmith, kchen, mlee, nkim, ojones, pwang, rpatel, slopez, tbrown.",
+      "user": "",
+      "src_ip": "198.51.100.23",
+      "host": "",
+      "count": 10,
+      "first_seen": "2026-11-05T10:10:00+00:00",
+      "last_seen": "2026-11-05T10:14:30+00:00",
+      "evidence": [
+        "2026-11-05T10:10:00+00:00 EID 4625 user=jsmith ip=198.51.100.23 host=WS-FIN-01.corp.local logon_type=3",
+        "2026-11-05T10:10:30+00:00 EID 4625 user=adoe ip=198.51.100.23 host=WS-FIN-01.corp.local logon_type=3",
+        "2026-11-05T10:11:00+00:00 EID 4625 user=mlee ip=198.51.100.23 host=WS-FIN-01.corp.local logon_type=3",
+        "2026-11-05T10:11:30+00:00 EID 4625 user=rpatel ip=198.51.100.23 host=WS-FIN-01.corp.local logon_type=3",
+        "2026-11-05T10:12:00+00:00 EID 4625 user=kchen ip=198.51.100.23 host=WS-FIN-01.corp.local logon_type=3"
+      ]
+    },
+    {
+      "rule_id": "AUTH-005",
+      "title": "Account locked out",
+      "severity": "medium",
+      "mitre": [
+        "T1110"
+      ],
+      "description": "'mlee' was locked out (caller WS-FIN-01).",
+      "user": "mlee",
+      "src_ip": "",
+      "host": "DC01.corp.local",
+      "count": 1,
+      "first_seen": "2026-11-04T13:08:00+00:00",
+      "last_seen": "2026-11-04T13:08:00+00:00",
+      "evidence": [
+        "2026-11-04T13:08:00+00:00 EID 4740 user=mlee ip=- host=DC01.corp.local logon_type=None"
+      ]
+    },
+    {
+      "rule_id": "AUTH-007",
+      "title": "New local/domain account created",
+      "severity": "medium",
+      "mitre": [
+        "T1136"
+      ],
+      "description": "'jsmith' created account 'svc_backup2'.",
+      "user": "svc_backup2",
+      "src_ip": "",
+      "host": "DC01.corp.local",
+      "count": 1,
+      "first_seen": "2026-11-04T13:20:00+00:00",
+      "last_seen": "2026-11-04T13:20:00+00:00",
+      "evidence": [
+        "2026-11-04T13:20:00+00:00 EID 4720 user=svc_backup2 ip=- host=DC01.corp.local logon_type=None"
+      ]
+    },
+    {
+      "rule_id": "AUTH-004",
+      "title": "Off-hours RDP logon",
+      "severity": "medium",
+      "mitre": [
+        "T1078",
+        "T1021.001"
+      ],
+      "description": "'adoe' RDP logon at 23:41 UTC from 192.0.2.77.",
+      "user": "adoe",
+      "src_ip": "192.0.2.77",
+      "host": "WS-FIN-01.corp.local",
+      "count": 1,
+      "first_seen": "2026-11-05T23:41:00+00:00",
+      "last_seen": "2026-11-05T23:41:00+00:00",
+      "evidence": [
+        "2026-11-05T23:41:00+00:00 EID 4624 user=adoe ip=192.0.2.77 host=WS-FIN-01.corp.local logon_type=10"
+      ]
+    }
+  ],
+  "entity_risk": [
+    {
+      "type": "user",
+      "entity": "jsmith",
+      "score": 100,
+      "rules": [
+        "AUTH-001",
+        "AUTH-003",
+        "AUTH-006",
+        "AUTH-008",
+        "AUTH-009"
+      ]
+    },
+    {
+      "type": "ip",
+      "entity": "203.0.113.45",
+      "score": 100,
+      "rules": [
+        "AUTH-001",
+        "AUTH-003"
+      ]
+    },
+    {
+      "type": "ip",
+      "entity": "198.51.100.23",
+      "score": 50,
+      "rules": [
+        "AUTH-002"
+      ]
+    },
+    {
+      "type": "user",
+      "entity": "mlee",
+      "score": 25,
+      "rules": [
+        "AUTH-005"
+      ]
+    },
+    {
+      "type": "user",
+      "entity": "svc_backup2",
+      "score": 25,
+      "rules": [
+        "AUTH-007"
+      ]
+    },
+    {
+      "type": "user",
+      "entity": "adoe",
+      "score": 25,
+      "rules": [
+        "AUTH-004"
+      ]
+    },
+    {
+      "type": "ip",
+      "entity": "192.0.2.77",
+      "score": 25,
+      "rules": [
+        "AUTH-004"
+      ]
+    }
+  ]
+}

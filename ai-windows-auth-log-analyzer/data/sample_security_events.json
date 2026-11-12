@@ -1,0 +1,760 @@
+[
+ {
+  "EventID": 4625,
+  "TimeCreated": "2026-11-03T08:06:40Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "mlee",
+  "IpAddress": "10.10.1.20",
+  "LogonType": 3,
+  "Status": "0xC000006A"
+ },
+ {
+  "EventID": 4624,
+  "TimeCreated": "2026-11-03T08:07:00Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "mlee",
+  "TargetDomainName": "CORP",
+  "IpAddress": "10.10.1.42",
+  "LogonType": 2,
+  "WorkstationName": "WS-MLEE"
+ },
+ {
+  "EventID": 4624,
+  "TimeCreated": "2026-11-03T08:09:00Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "adoe",
+  "TargetDomainName": "CORP",
+  "IpAddress": "10.10.1.44",
+  "LogonType": 2,
+  "WorkstationName": "WS-ADOE"
+ },
+ {
+  "EventID": 4624,
+  "TimeCreated": "2026-11-03T08:15:00Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "tbrown",
+  "TargetDomainName": "CORP",
+  "IpAddress": "10.10.1.24",
+  "LogonType": 2,
+  "WorkstationName": "WS-TBROWN"
+ },
+ {
+  "EventID": 4624,
+  "TimeCreated": "2026-11-03T08:15:00Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "pwang",
+  "TargetDomainName": "CORP",
+  "IpAddress": "10.10.1.46",
+  "LogonType": 3,
+  "WorkstationName": "WS-PWANG"
+ },
+ {
+  "EventID": 4625,
+  "TimeCreated": "2026-11-03T08:16:40Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "nkim",
+  "IpAddress": "10.10.1.20",
+  "LogonType": 3,
+  "Status": "0xC000006A"
+ },
+ {
+  "EventID": 4624,
+  "TimeCreated": "2026-11-03T08:17:00Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "nkim",
+  "TargetDomainName": "CORP",
+  "IpAddress": "10.10.1.28",
+  "LogonType": 3,
+  "WorkstationName": "WS-NKIM"
+ },
+ {
+  "EventID": 4624,
+  "TimeCreated": "2026-11-03T08:41:00Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "jsmith",
+  "TargetDomainName": "CORP",
+  "IpAddress": "10.10.1.19",
+  "LogonType": 3,
+  "WorkstationName": "WS-JSMITH"
+ },
+ {
+  "EventID": 4625,
+  "TimeCreated": "2026-11-03T08:49:40Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "slopez",
+  "IpAddress": "10.10.1.20",
+  "LogonType": 3,
+  "Status": "0xC000006A"
+ },
+ {
+  "EventID": 4624,
+  "TimeCreated": "2026-11-03T08:50:00Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "slopez",
+  "TargetDomainName": "CORP",
+  "IpAddress": "10.10.1.13",
+  "LogonType": 2,
+  "WorkstationName": "WS-SLOPEZ"
+ },
+ {
+  "EventID": 4625,
+  "TimeCreated": "2026-11-03T08:54:40Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "rpatel",
+  "IpAddress": "10.10.1.20",
+  "LogonType": 3,
+  "Status": "0xC000006A"
+ },
+ {
+  "EventID": 4624,
+  "TimeCreated": "2026-11-03T08:55:00Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "rpatel",
+  "TargetDomainName": "CORP",
+  "IpAddress": "10.10.1.36",
+  "LogonType": 2,
+  "WorkstationName": "WS-RPATEL"
+ },
+ {
+  "EventID": 4624,
+  "TimeCreated": "2026-11-03T09:10:00Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "kchen",
+  "TargetDomainName": "CORP",
+  "IpAddress": "10.10.1.37",
+  "LogonType": 2,
+  "WorkstationName": "WS-KCHEN"
+ },
+ {
+  "EventID": 4624,
+  "TimeCreated": "2026-11-03T09:27:00Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "ojones",
+  "TargetDomainName": "CORP",
+  "IpAddress": "10.10.1.21",
+  "LogonType": 2,
+  "WorkstationName": "WS-OJONES"
+ },
+ {
+  "EventID": 4624,
+  "TimeCreated": "2026-11-04T08:08:00Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "adoe",
+  "TargetDomainName": "CORP",
+  "IpAddress": "10.10.1.46",
+  "LogonType": 2,
+  "WorkstationName": "WS-ADOE"
+ },
+ {
+  "EventID": 4625,
+  "TimeCreated": "2026-11-04T08:08:40Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "nkim",
+  "IpAddress": "10.10.1.20",
+  "LogonType": 3,
+  "Status": "0xC000006A"
+ },
+ {
+  "EventID": 4624,
+  "TimeCreated": "2026-11-04T08:09:00Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "nkim",
+  "TargetDomainName": "CORP",
+  "IpAddress": "10.10.1.17",
+  "LogonType": 3,
+  "WorkstationName": "WS-NKIM"
+ },
+ {
+  "EventID": 4624,
+  "TimeCreated": "2026-11-04T08:31:00Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "kchen",
+  "TargetDomainName": "CORP",
+  "IpAddress": "10.10.1.60",
+  "LogonType": 2,
+  "WorkstationName": "WS-KCHEN"
+ },
+ {
+  "EventID": 4624,
+  "TimeCreated": "2026-11-04T08:31:00Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "tbrown",
+  "TargetDomainName": "CORP",
+  "IpAddress": "10.10.1.15",
+  "LogonType": 3,
+  "WorkstationName": "WS-TBROWN"
+ },
+ {
+  "EventID": 4625,
+  "TimeCreated": "2026-11-04T08:42:40Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "slopez",
+  "IpAddress": "10.10.1.20",
+  "LogonType": 3,
+  "Status": "0xC000006A"
+ },
+ {
+  "EventID": 4624,
+  "TimeCreated": "2026-11-04T08:43:00Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "slopez",
+  "TargetDomainName": "CORP",
+  "IpAddress": "10.10.1.56",
+  "LogonType": 3,
+  "WorkstationName": "WS-SLOPEZ"
+ },
+ {
+  "EventID": 4624,
+  "TimeCreated": "2026-11-04T08:43:00Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "pwang",
+  "TargetDomainName": "CORP",
+  "IpAddress": "10.10.1.19",
+  "LogonType": 3,
+  "WorkstationName": "WS-PWANG"
+ },
+ {
+  "EventID": 4624,
+  "TimeCreated": "2026-11-04T08:59:00Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "rpatel",
+  "TargetDomainName": "CORP",
+  "IpAddress": "10.10.1.47",
+  "LogonType": 3,
+  "WorkstationName": "WS-RPATEL"
+ },
+ {
+  "EventID": 4624,
+  "TimeCreated": "2026-11-04T09:03:00Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "mlee",
+  "TargetDomainName": "CORP",
+  "IpAddress": "10.10.1.53",
+  "LogonType": 3,
+  "WorkstationName": "WS-MLEE"
+ },
+ {
+  "EventID": 4625,
+  "TimeCreated": "2026-11-04T09:20:40Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "jsmith",
+  "IpAddress": "10.10.1.20",
+  "LogonType": 3,
+  "Status": "0xC000006A"
+ },
+ {
+  "EventID": 4624,
+  "TimeCreated": "2026-11-04T09:21:00Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "jsmith",
+  "TargetDomainName": "CORP",
+  "IpAddress": "10.10.1.22",
+  "LogonType": 3,
+  "WorkstationName": "WS-JSMITH"
+ },
+ {
+  "EventID": 4624,
+  "TimeCreated": "2026-11-04T09:25:00Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "ojones",
+  "TargetDomainName": "CORP",
+  "IpAddress": "10.10.1.14",
+  "LogonType": 3,
+  "WorkstationName": "WS-OJONES"
+ },
+ {
+  "EventID": 4625,
+  "TimeCreated": "2026-11-04T13:03:00Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "jsmith",
+  "TargetDomainName": "CORP",
+  "IpAddress": "203.0.113.45",
+  "LogonType": 3,
+  "Status": "0xC000006A",
+  "WorkstationName": "KALI"
+ },
+ {
+  "EventID": 4625,
+  "TimeCreated": "2026-11-04T13:03:12Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "jsmith",
+  "TargetDomainName": "CORP",
+  "IpAddress": "203.0.113.45",
+  "LogonType": 3,
+  "Status": "0xC000006A",
+  "WorkstationName": "KALI"
+ },
+ {
+  "EventID": 4625,
+  "TimeCreated": "2026-11-04T13:03:24Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "jsmith",
+  "TargetDomainName": "CORP",
+  "IpAddress": "203.0.113.45",
+  "LogonType": 3,
+  "Status": "0xC000006A",
+  "WorkstationName": "KALI"
+ },
+ {
+  "EventID": 4625,
+  "TimeCreated": "2026-11-04T13:03:36Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "jsmith",
+  "TargetDomainName": "CORP",
+  "IpAddress": "203.0.113.45",
+  "LogonType": 3,
+  "Status": "0xC000006A",
+  "WorkstationName": "KALI"
+ },
+ {
+  "EventID": 4625,
+  "TimeCreated": "2026-11-04T13:03:48Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "jsmith",
+  "TargetDomainName": "CORP",
+  "IpAddress": "203.0.113.45",
+  "LogonType": 3,
+  "Status": "0xC000006A",
+  "WorkstationName": "KALI"
+ },
+ {
+  "EventID": 4625,
+  "TimeCreated": "2026-11-04T13:04:00Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "jsmith",
+  "TargetDomainName": "CORP",
+  "IpAddress": "203.0.113.45",
+  "LogonType": 3,
+  "Status": "0xC000006A",
+  "WorkstationName": "KALI"
+ },
+ {
+  "EventID": 4625,
+  "TimeCreated": "2026-11-04T13:04:12Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "jsmith",
+  "TargetDomainName": "CORP",
+  "IpAddress": "203.0.113.45",
+  "LogonType": 3,
+  "Status": "0xC000006A",
+  "WorkstationName": "KALI"
+ },
+ {
+  "EventID": 4625,
+  "TimeCreated": "2026-11-04T13:04:24Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "jsmith",
+  "TargetDomainName": "CORP",
+  "IpAddress": "203.0.113.45",
+  "LogonType": 3,
+  "Status": "0xC000006A",
+  "WorkstationName": "KALI"
+ },
+ {
+  "EventID": 4625,
+  "TimeCreated": "2026-11-04T13:04:36Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "jsmith",
+  "TargetDomainName": "CORP",
+  "IpAddress": "203.0.113.45",
+  "LogonType": 3,
+  "Status": "0xC000006A",
+  "WorkstationName": "KALI"
+ },
+ {
+  "EventID": 4625,
+  "TimeCreated": "2026-11-04T13:04:48Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "jsmith",
+  "TargetDomainName": "CORP",
+  "IpAddress": "203.0.113.45",
+  "LogonType": 3,
+  "Status": "0xC000006A",
+  "WorkstationName": "KALI"
+ },
+ {
+  "EventID": 4625,
+  "TimeCreated": "2026-11-04T13:05:00Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "jsmith",
+  "TargetDomainName": "CORP",
+  "IpAddress": "203.0.113.45",
+  "LogonType": 3,
+  "Status": "0xC000006A",
+  "WorkstationName": "KALI"
+ },
+ {
+  "EventID": 4625,
+  "TimeCreated": "2026-11-04T13:05:12Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "jsmith",
+  "TargetDomainName": "CORP",
+  "IpAddress": "203.0.113.45",
+  "LogonType": 3,
+  "Status": "0xC000006A",
+  "WorkstationName": "KALI"
+ },
+ {
+  "EventID": 4625,
+  "TimeCreated": "2026-11-04T13:05:24Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "jsmith",
+  "TargetDomainName": "CORP",
+  "IpAddress": "203.0.113.45",
+  "LogonType": 3,
+  "Status": "0xC000006A",
+  "WorkstationName": "KALI"
+ },
+ {
+  "EventID": 4625,
+  "TimeCreated": "2026-11-04T13:05:36Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "jsmith",
+  "TargetDomainName": "CORP",
+  "IpAddress": "203.0.113.45",
+  "LogonType": 3,
+  "Status": "0xC000006A",
+  "WorkstationName": "KALI"
+ },
+ {
+  "EventID": 4625,
+  "TimeCreated": "2026-11-04T13:05:48Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "jsmith",
+  "TargetDomainName": "CORP",
+  "IpAddress": "203.0.113.45",
+  "LogonType": 3,
+  "Status": "0xC000006A",
+  "WorkstationName": "KALI"
+ },
+ {
+  "EventID": 4625,
+  "TimeCreated": "2026-11-04T13:06:00Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "jsmith",
+  "TargetDomainName": "CORP",
+  "IpAddress": "203.0.113.45",
+  "LogonType": 3,
+  "Status": "0xC000006A",
+  "WorkstationName": "KALI"
+ },
+ {
+  "EventID": 4625,
+  "TimeCreated": "2026-11-04T13:06:12Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "jsmith",
+  "TargetDomainName": "CORP",
+  "IpAddress": "203.0.113.45",
+  "LogonType": 3,
+  "Status": "0xC000006A",
+  "WorkstationName": "KALI"
+ },
+ {
+  "EventID": 4625,
+  "TimeCreated": "2026-11-04T13:06:24Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "jsmith",
+  "TargetDomainName": "CORP",
+  "IpAddress": "203.0.113.45",
+  "LogonType": 3,
+  "Status": "0xC000006A",
+  "WorkstationName": "KALI"
+ },
+ {
+  "EventID": 4624,
+  "TimeCreated": "2026-11-04T13:07:00Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "jsmith",
+  "TargetDomainName": "CORP",
+  "IpAddress": "203.0.113.45",
+  "LogonType": 3,
+  "WorkstationName": "KALI"
+ },
+ {
+  "EventID": 4740,
+  "TimeCreated": "2026-11-04T13:08:00Z",
+  "Computer": "DC01.corp.local",
+  "TargetUserName": "mlee",
+  "WorkstationName": "WS-FIN-01"
+ },
+ {
+  "EventID": 4720,
+  "TimeCreated": "2026-11-04T13:20:00Z",
+  "Computer": "DC01.corp.local",
+  "TargetUserName": "svc_backup2",
+  "SubjectUserName": "jsmith"
+ },
+ {
+  "EventID": 4732,
+  "TimeCreated": "2026-11-04T13:20:40Z",
+  "Computer": "DC01.corp.local",
+  "TargetUserName": "Administrators",
+  "SubjectUserName": "jsmith"
+ },
+ {
+  "EventID": 4648,
+  "TimeCreated": "2026-11-04T13:22:00Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "SubjectUserName": "jsmith",
+  "TargetUserName": "administrator",
+  "IpAddress": "-"
+ },
+ {
+  "EventID": 4648,
+  "TimeCreated": "2026-11-04T13:22:15Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "SubjectUserName": "jsmith",
+  "TargetUserName": "svc_sql",
+  "IpAddress": "-"
+ },
+ {
+  "EventID": 4648,
+  "TimeCreated": "2026-11-04T13:22:30Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "SubjectUserName": "jsmith",
+  "TargetUserName": "rpatel",
+  "IpAddress": "-"
+ },
+ {
+  "EventID": 1102,
+  "TimeCreated": "2026-11-04T13:29:00Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "SubjectUserName": "jsmith"
+ },
+ {
+  "EventID": 4624,
+  "TimeCreated": "2026-11-05T08:16:00Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "nkim",
+  "TargetDomainName": "CORP",
+  "IpAddress": "10.10.1.57",
+  "LogonType": 2,
+  "WorkstationName": "WS-NKIM"
+ },
+ {
+  "EventID": 4624,
+  "TimeCreated": "2026-11-05T08:44:00Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "jsmith",
+  "TargetDomainName": "CORP",
+  "IpAddress": "10.10.1.48",
+  "LogonType": 3,
+  "WorkstationName": "WS-JSMITH"
+ },
+ {
+  "EventID": 4625,
+  "TimeCreated": "2026-11-05T08:48:40Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "kchen",
+  "IpAddress": "10.10.1.20",
+  "LogonType": 3,
+  "Status": "0xC000006A"
+ },
+ {
+  "EventID": 4624,
+  "TimeCreated": "2026-11-05T08:49:00Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "kchen",
+  "TargetDomainName": "CORP",
+  "IpAddress": "10.10.1.52",
+  "LogonType": 3,
+  "WorkstationName": "WS-KCHEN"
+ },
+ {
+  "EventID": 4624,
+  "TimeCreated": "2026-11-05T08:58:00Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "adoe",
+  "TargetDomainName": "CORP",
+  "IpAddress": "10.10.1.14",
+  "LogonType": 2,
+  "WorkstationName": "WS-ADOE"
+ },
+ {
+  "EventID": 4624,
+  "TimeCreated": "2026-11-05T08:59:00Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "tbrown",
+  "TargetDomainName": "CORP",
+  "IpAddress": "10.10.1.32",
+  "LogonType": 2,
+  "WorkstationName": "WS-TBROWN"
+ },
+ {
+  "EventID": 4625,
+  "TimeCreated": "2026-11-05T08:59:40Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "mlee",
+  "IpAddress": "10.10.1.20",
+  "LogonType": 3,
+  "Status": "0xC000006A"
+ },
+ {
+  "EventID": 4624,
+  "TimeCreated": "2026-11-05T09:00:00Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "mlee",
+  "TargetDomainName": "CORP",
+  "IpAddress": "10.10.1.54",
+  "LogonType": 2,
+  "WorkstationName": "WS-MLEE"
+ },
+ {
+  "EventID": 4624,
+  "TimeCreated": "2026-11-05T09:03:00Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "slopez",
+  "TargetDomainName": "CORP",
+  "IpAddress": "10.10.1.13",
+  "LogonType": 2,
+  "WorkstationName": "WS-SLOPEZ"
+ },
+ {
+  "EventID": 4624,
+  "TimeCreated": "2026-11-05T09:03:00Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "pwang",
+  "TargetDomainName": "CORP",
+  "IpAddress": "10.10.1.15",
+  "LogonType": 2,
+  "WorkstationName": "WS-PWANG"
+ },
+ {
+  "EventID": 4624,
+  "TimeCreated": "2026-11-05T09:10:00Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "ojones",
+  "TargetDomainName": "CORP",
+  "IpAddress": "10.10.1.27",
+  "LogonType": 2,
+  "WorkstationName": "WS-OJONES"
+ },
+ {
+  "EventID": 4625,
+  "TimeCreated": "2026-11-05T09:28:40Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "rpatel",
+  "IpAddress": "10.10.1.20",
+  "LogonType": 3,
+  "Status": "0xC000006A"
+ },
+ {
+  "EventID": 4624,
+  "TimeCreated": "2026-11-05T09:29:00Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "rpatel",
+  "TargetDomainName": "CORP",
+  "IpAddress": "10.10.1.29",
+  "LogonType": 3,
+  "WorkstationName": "WS-RPATEL"
+ },
+ {
+  "EventID": 4625,
+  "TimeCreated": "2026-11-05T10:10:00Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "jsmith",
+  "IpAddress": "198.51.100.23",
+  "LogonType": 3,
+  "Status": "0xC000006A",
+  "WorkstationName": "-"
+ },
+ {
+  "EventID": 4625,
+  "TimeCreated": "2026-11-05T10:10:30Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "adoe",
+  "IpAddress": "198.51.100.23",
+  "LogonType": 3,
+  "Status": "0xC000006A",
+  "WorkstationName": "-"
+ },
+ {
+  "EventID": 4625,
+  "TimeCreated": "2026-11-05T10:11:00Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "mlee",
+  "IpAddress": "198.51.100.23",
+  "LogonType": 3,
+  "Status": "0xC000006A",
+  "WorkstationName": "-"
+ },
+ {
+  "EventID": 4625,
+  "TimeCreated": "2026-11-05T10:11:30Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "rpatel",
+  "IpAddress": "198.51.100.23",
+  "LogonType": 3,
+  "Status": "0xC000006A",
+  "WorkstationName": "-"
+ },
+ {
+  "EventID": 4625,
+  "TimeCreated": "2026-11-05T10:12:00Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "kchen",
+  "IpAddress": "198.51.100.23",
+  "LogonType": 3,
+  "Status": "0xC000006A",
+  "WorkstationName": "-"
+ },
+ {
+  "EventID": 4625,
+  "TimeCreated": "2026-11-05T10:12:30Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "tbrown",
+  "IpAddress": "198.51.100.23",
+  "LogonType": 3,
+  "Status": "0xC000006A",
+  "WorkstationName": "-"
+ },
+ {
+  "EventID": 4625,
+  "TimeCreated": "2026-11-05T10:13:00Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "slopez",
+  "IpAddress": "198.51.100.23",
+  "LogonType": 3,
+  "Status": "0xC000006A",
+  "WorkstationName": "-"
+ },
+ {
+  "EventID": 4625,
+  "TimeCreated": "2026-11-05T10:13:30Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "nkim",
+  "IpAddress": "198.51.100.23",
+  "LogonType": 3,
+  "Status": "0xC000006A",
+  "WorkstationName": "-"
+ },
+ {
+  "EventID": 4625,
+  "TimeCreated": "2026-11-05T10:14:00Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "pwang",
+  "IpAddress": "198.51.100.23",
+  "LogonType": 3,
+  "Status": "0xC000006A",
+  "WorkstationName": "-"
+ },
+ {
+  "EventID": 4625,
+  "TimeCreated": "2026-11-05T10:14:30Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "ojones",
+  "IpAddress": "198.51.100.23",
+  "LogonType": 3,
+  "Status": "0xC000006A",
+  "WorkstationName": "-"
+ },
+ {
+  "EventID": 4624,
+  "TimeCreated": "2026-11-05T23:41:00Z",
+  "Computer": "WS-FIN-01.corp.local",
+  "TargetUserName": "adoe",
+  "IpAddress": "192.0.2.77",
+  "LogonType": 10,
+  "WorkstationName": "UNKNOWN-PC"
+ }
+]
